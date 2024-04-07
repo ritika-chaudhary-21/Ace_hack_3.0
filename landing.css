@@ -24,7 +24,7 @@
   
   body {
     min-height: 100vh;
-    background-color: var(--body-color);
+    background-color: var(--primary-color);
     transition: var(--tran-05);
   }
   
@@ -313,11 +313,9 @@
     color: var(--text-color);
   }
   /* dashboard ended*/
-  .text{
-    color: white;
-  }
+  
   .img{
-    background-color:rgb(212, 204, 204);
+    background-image:url("https://img.freepik.com/free-vector/crowd-people-pattern-set-oval-shape-different-men-women-isolated-white-flat-style_90220-631.jpg?w=1060&t=st=1712469654~exp=1712470254~hmac=0036fc022790608c0ad0ad6724137dc43df2c9c38c9f29eca453f5557c7ce4cc");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -327,6 +325,7 @@
   
   h1{
     align-content: center;
+    font-size: 40px;
     color:#fff;
   }
   h4{
@@ -344,11 +343,11 @@
     text-align: center;
   }
   .center .title{
-    color: #fff;
+    color: #101010;
     
   }
   .center .sub_title{
-    color: #fff;    
+    color: #101010;    
   }
   .center .btns{
     margin-top: 20px;
@@ -368,16 +367,12 @@
     transition: all 0.3s ease;
   }
   .center .btns button:first-child{
-    color: #fff;
+    color:rgb(197, 224, 241);
     background: none;
   }
-  .btns button:first-child:hover{
-    background: white;
-    color: black;
-  }
+  
   .center .btns button:last-child{
-    background: white;
+    background: rgb(197, 224, 241);
     color:black;
   }
  
-  
